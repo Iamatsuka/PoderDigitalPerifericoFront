@@ -1,13 +1,57 @@
+import { Box, Grid } from '@mui/material';
 import React from 'react'
-import "./SobreOProjeto.css"
+import "./SobreOProjeto.css";
+import {Helmet} from 'react-helmet';
 
 function SobreOProjeto() {
     return (
-        <>
-            <h1 className='titulo'>Sobre Nós</h1>
-            <p> Nosso projeto tem como objetivo oferecer uma solução para os problemas enfrentados pelos talentosos artistas e profissionais das comunidades periféricas, fornecendo-lhes uma plataforma para mostrar suas habilidades e alcançar um público maior. Nossa rede social é um espaço onde esses artistas podem publicar suas habilidades artísticas, conectar-se com outros artistas e profissionais das periferias e com o público em geral. </p>
-            <p> Acreditamos que a desigualdade social é um problema real que impede que muitas pessoas talentosas nas comunidades periféricas tenham acesso às mesmas oportunidades que outras com habilidades semelhantes. </p> <p> Por isso, nossa plataforma tem como objetivo valorizar e destacar talentos da periferia, ajudando a criar um espaço onde os artistas e profissionais das periferias possam se conectar e colaborar, bem como mostrar suas habilidades ao mundo. </p>                    <p> As publicações na nossa rede social serão voltadas para as habilidades artísticas dos moradores das comunidades periféricas, ajudando a mostrar ao mundo o talento e a criatividade que muitas vezes são ignorados pela sociedade em geral. </p> <p> Acreditamos que nossa rede social pode ser uma ferramenta poderosa para ajudar a combater a desigualdade social, dando visibilidade e oportunidades para artistas e profissionais talentosos das comunidades periféricas. </p>
-        </>
+    <>        
+            <Box className="parallax">
+                <img src="/assets/img/favela1.png" id="favela1"/>
+                <img src="/assets/img/favela6.png" id="favela6"/>
+                <img src="/assets/img/favela2.png" id="favela2"/>
+                <img src="/assets/img/favela3.png" id="favela3"/>
+                <img src="/assets/img/favela4.png" id="favela4"/>
+                <img src="/assets/img/favela5.png" id="favela5"/>
+                <img src="/assets/img/favela_poste_esq.png" id="favela_poste_esq"/>
+                <img src="/assets/img/pipa_dir_1.png" id="pipa_dir_1"/>
+                <img src="/assets/img/pipa_dir_2.png" id="pipa_dir_2"/>
+                <img src="/assets/img/pipa_esq_1.png" id="pipa_esq_1"/>
+                <img src="/assets/img/pipa_esq_2.png" id="pipa_esq_2"/>
+                <img src="/assets/img/pipa_esq_3.png" id="pipa_esq_3"/>
+                <img src="/assets/img/pipa_esq_4.png" id="pipa_esq_4"/>
+                <h2 id="text">Poder <br/> Digital <br/> Periférico</h2>
+                <img src="/assets/img/favela_poste_dir.png" id="favela_poste_dir"/>
+                <img src="/assets/img/favela_casa_dir.png" id="favela_casa_dir"/>
+                <img src="/assets/img/favela_casa_esq.png" id="favela_casa_esq"/>
+                <img src="/assets/img/favela_muro.png" id="favela_muro"/>
+            </Box>
+
+            <Grid container item md={12} className="sec">
+                <h2>Poder Digital Periférico</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam alias reprehenderit, facilis nemo
+                    corrupti, debitis quam autem repellat culpa vero illum voluptates assumenda eaque odio ex neque id,
+                    consectetur minus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam alias reprehenderit,
+                    facilis nemo
+                    corrupti, debitis quam autem repellat culpa vero illum voluptates assumenda eaque odio ex neque id,
+                    consectetur minus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam alias reprehenderit,
+                    facilis nemo
+                    corrupti, debitis quam autem repellat culpa vero illum voluptates assumenda eaque odio ex neque id,
+                    consectetur minus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam alias reprehenderit,
+                    facilis nemo
+                    corrupti, debitis quam autem repellat culpa vero illum voluptates assumenda eaque odio ex neque id,
+                    consectetur minus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam alias reprehenderit,
+                    facilis nemo
+                    corrupti, debitis quam autem repellat culpa vero illum voluptates assumenda eaque odio ex neque id,
+                    consectetur minus!
+                </p>
+            </Grid>
+
+            <Helmet>
+                <script src="scripts/script.js" type="text/javascript" />
+            </Helmet>
+            </>
     );
 }
 
