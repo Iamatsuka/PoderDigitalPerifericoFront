@@ -41,6 +41,9 @@
     font-size: 3em;
     color: #fff;
     margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .sec p {
@@ -60,10 +63,20 @@ strong{
 
 /* ********************************* */
 
-/* @import url('https://fonts.googleapis.com/css?family=Montserrat'); */
+.desenvolvedores {
+    background-color: #8B2412;
+    margin-top: 140px;
+}
+
+.integrantes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 .integrantes h3 {
 	margin: 10px 0;
+    
 }
 
 .integrantes h6 {
@@ -74,48 +87,41 @@ strong{
 .integrantes p {
 	font-size: 14px;
 	line-height: 21px;
+    
 }
 
+/* background-color: #4c0702; */
 .card-container {
     background-color: #4c0702;
-	border-radius: 5px;
-	box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
-	color: #fff;
-	padding: 30px;
-	position: relative;
-	max-width: 100%;
-	text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
+    color:#fff;
+    padding: 30px;
+    position: relative;
+    max-width: 100%;
+    text-align: center;
     margin: 10px;
-    display: flex;
-}
-
-.card-text {
-    display: flex;
-    align-items: center;
-    width: 70%;
-    margin-left: 75px;
 }
 
 .card-container .round {
-	border: 1px solid #03BFCB;
-	border-radius: 50%;
-	padding: 7px;
+    border: 1px solid#fff;
+    border-radius: 50%;
+    padding: 7px;
     width: 150px;
-  height: 150px;
+    height: 150px;
 }
 
 button.primary {
-    margin: 5px;
-	background-color: #03BFCB;
-	border: 1px solid #03BFCB;
-	border-radius: 3px;
-	color: #231E39;
-	font-family: Montserrat, sans-serif;
-	font-weight: 500;
-	padding: 10px 25px;
+    background-color:#fff;
+    border: 1px solid#fff;
+    border-radius: 3px;
+    color: #231E39;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    padding: 10px 25px;
 }
 
 button.primary.ghost {
-	background-color: transparent;
-	color: #02899C;
+    background-color: transparent;
+    color: #02899C;
 }
